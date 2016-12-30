@@ -177,7 +177,8 @@ public class KeepBubbleService extends Service {
         mRecycleBinParams.gravity = Gravity.BOTTOM | Gravity.CENTER;
 
         exitImage = new ImageView(this);
-        exitImage.setImageResource(R.mipmap.ic_bubble2);
+        //TODO Find a better recycle bin image
+        exitImage.setImageResource(R.drawable.ic_delete_black_48dp);
 
         mRecycleBinParams.x = 0;
         mRecycleBinParams.y = 25;
@@ -206,6 +207,7 @@ public class KeepBubbleService extends Service {
         }
 
         if (exitImage != null) {
+            YoYo.with(Techniques.FadeOut).duration(200).playOn(exitImage);
             mWindowManager.removeView(exitImage);
             exitImage = null;
         }
