@@ -1,7 +1,8 @@
-# [Abandoned] BubbleKeep
+# BubbleKeep
 ## Description
 
-Bubble Keep is an always hovering bubble to take quick notes with Google keep. How ? Tapping the little bubble will launch an activity of Google keep:
+An originally abandoned project by Vox Studio, forked from [/VoxStudio/BubbleKeep](https://github.com/VoxStudio/BubbleKeep.Bubble).
+Keep is an always hovering bubble to take quick notes with Google keep. How ? Tapping the little bubble will launch an activity of Google keep:
 
 ![KeepWindow](http://i.imgur.com/RQtP76R.png)
 
